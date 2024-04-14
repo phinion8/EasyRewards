@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1056909867452",
+    "project_id": "want-uc",
+    "storage_bucket": "want-uc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1056909867452:android:aa8238df763a8821c493b9",
+        "android_client_info": {
+          "package_name": "com.khenikumar.wantuc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1056909867452-1eai3bchp3kus3h0rvii07qalhg2j6pn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgF2hUl3rL0WDft7CcIJ2ojFfPTbeeXjc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1056909867452-1eai3bchp3kus3h0rvii07qalhg2j6pn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

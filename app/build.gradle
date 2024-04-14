@@ -1,0 +1,79 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+    id 'com.google.gms.google-services'
+}
+
+android {
+    namespace 'com.khenikumar.wantuc'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId "com.khenikumar.wantuc"
+        minSdk 23
+        targetSdk 34
+        versionCode 5
+        versionName "5.0"
+
+        multiDexEnabled true
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+    buildFeatures{
+        viewBinding = true
+    }
+}
+
+dependencies {
+
+    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.9.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.firebase:firebase-auth-ktx:22.1.2'
+    implementation 'com.google.firebase:firebase-firestore-ktx:24.8.1'
+    implementation 'androidx.gridlayout:gridlayout:1.0.0'
+    implementation 'com.google.firebase:firebase-messaging-ktx:23.2.1'
+    implementation 'androidx.core:core-ktx:+'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.5'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+    implementation 'com.android.support:multidex:2.0.1'
+
+    //LotteFiles
+    implementation "com.airbnb.android:lottie:5.2.0"
+
+    // Navigation Component
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.7.2'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.7.2'
+
+    //Scratch Card Library
+    implementation 'androidx.compose.material:material:1.5.1'
+    implementation 'com.github.AnupKumarPanwar:ScratchView:1.9'
+
+    //Lucky Wheel Library
+    implementation 'com.github.mmoamenn:LuckyWheel_Android:0.3.0'
+
+    //Unity Ads
+    implementation files('/libs/unity-ads.aar')
+
+
+    //Country Picker
+    implementation 'com.hbb20:ccp:2.7.0'
+
+
+}
