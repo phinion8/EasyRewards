@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_primary_color"
+    android:fillViewport="true"
+    tools:context=".LuckyNumberActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <ImageView
+        android:id="@+id/back_btn4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="24dp"
+        android:background="@drawable/account_form_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/back_btn4">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="@color/app_primary_color"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.41000003">
+
+            <androidx.gridlayout.widget.GridLayout
+                android:id="@+id/number_grid_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+
+                <android.widget.Button
+                    android:id="@+id/button1"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/number_background"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:tag="1"
+                    android:text="1"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    app:layout_column="0"
+                    app:layout_row="0" />
+
+                <android.widget.Button
+                    android:id="@+id/button2"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/number_background"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:tag="2"
+                    android:text="2"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    app:layout_column="1"
+                    app:layout_row="0" />
+
+                <android.widget.Button
+                    android:id="@+id/button3"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/number_background"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:tag="3"
+                    android:text="3"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    app:layout_column="2"
+                    app:layout_row="0" />
+
+                <android.widget.Button
+                    android:id="@+id/button4"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/number_background"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:tag="4"
+                    android:text="4"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    app:layout_column="3"
+                    app:layout_row="0" />
+
+                <android.widget.Button
+                    android:id="@+id/button5"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/number_background"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:tag="5"
+                    android:text="5"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    app:layout_column="0"
+                    app:layout_row="1" />
+
+                <android.widget.Button
+                    android:id="@+id/button6"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/number_background"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:tag="6"
+                    android:text="6"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    app:layout_column="1"
+                    app:layout_row="1" />
+
+                <android.widget.Button
+                    android:id="@+id/button7"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/number_background"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:tag="7"
+                    android:text="7"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    app:layout_column="2"
+                    app:layout_row="1" />
+
+                <android.widget.Button
+                    android:id="@+id/button8"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/number_background"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:tag="8"
+                    android:text="8"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    app:layout_column="3"
+                    app:layout_row="1" />
+
+                <android.widget.Button
+                    android:id="@+id/button9"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/number_background"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:tag="9"
+                    android:text="9"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    app:layout_column="0"
+                    app:layout_row="2" />
+
+                <android.widget.Button
+                    android:id="@+id/button10"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/number_background"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:tag="10"
+                    android:text="10"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    app:layout_column="1"
+                    app:layout_row="2" />
+
+                <android.widget.Button
+                    android:id="@+id/button11"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/number_background"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:tag="11"
+                    android:text="11"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    app:layout_column="2"
+                    app:layout_row="2" />
+
+                <android.widget.Button
+                    android:id="@+id/button12"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/number_background"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:tag="12"
+                    android:text="12"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    app:layout_column="3"
+                    app:layout_row="2" />
+
+                <android.widget.Button
+                    android:id="@+id/button13"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/number_background"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:tag="13"
+                    android:text="13"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    app:layout_column="0"
+                    app:layout_row="3" />
+
+                <android.widget.Button
+                    android:id="@+id/button14"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/number_background"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:tag="14"
+                    android:text="14"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    app:layout_column="1"
+                    app:layout_row="3" />
+
+                <android.widget.Button
+                    android:id="@+id/button15"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/number_background"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:tag="15"
+                    android:text="15"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    app:layout_column="2"
+                    app:layout_row="3" />
+
+                <android.widget.Button
+                    android:id="@+id/button16"
+                    android:layout_width="60dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/number_background"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:tag="16"
+                    android:text="16"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    app:layout_column="3"
+                    app:layout_row="3" />
+
+
+            </androidx.gridlayout.widget.GridLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/lucky_number_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:fontFamily="@font/bungee"
+            android:gravity="center"
+            android:lineSpacingExtra="10sp"
+            android:text="@string/pick_a_number_and_try_your_luck_to_win"
+            android:textColor="@color/app_primary_color"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toTopOf="@+id/cardView"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.468" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/poppins"
+            android:text="@string/note_you_will_get_3_chances"
+            android:textColor="@color/gray"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@+id/cardView"
+            app:layout_constraintStart_toStartOf="@+id/cardView"
+            app:layout_constraintTop_toBottomOf="@+id/cardView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">EasyRewards</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="refer_code">Refer Code (Optional)</string>
+    <string name="home">Home</string>
+    <string name="wallet">Wallet</string>
+    <string name="profile">Profile</string>
+    <string name="daily_reward">Daily Reward</string>
+    <string name="spin_the_wheel">Spin The Wheel</string>
+    <string name="scratch_card">Scratch Card</string>
+    <string name="refer_and_earn">Refer and Earn</string>
+    <string name="lucky_number">Lucky Number</string>
+    <string name="available_coins">Available Coins</string>
+    <string name="earn">Earn Up to </string>
+    <string name="daily_reward_description"> Coins Every Day.</string>
+    <string name="spin_wheel_description"> Coins Every Time.</string>
+    <string name="scratch_card_description"> Coins Every Time</string>
+    <string name="refer_description"> Coins Per Refer.</string>
+    <string name="lucky_number_description"> Coins.</string>
+    <string name="final_spin_reward_text">Coins Added In Your Account Successfully.</string>
+    <string name="you_won_text">You won</string>
+    <string name="sorry_try_again_text">Sorry, try again…</string>
+    <string name="you_have_text">You have</string>
+    <string name="chances_left">chances left</string>
+    <string name="pick_a_number_and_try_your_luck_to_win">Pick a number and try your luck to win</string>
+    <string name="share_your_referral_code_with_your_friends_via_sms_whatsapp_email">Share your referral code with your friends via SMS/Whatsapp/Email.</string>
+    <string name="refer_your_friend_and_earn_guaranteed_reward">Refer your friend and earn guaranteed reward</string>
+    <string name="loading" translatable="false">Loading...</string>
+    <string name="you_will_earn_upto">You will win Up to</string>
+    <string name="refer_description_extra"> coins when your friend successfully install the app and create a new account.</string>
+    <string name="share_now">Share Now</string>
+    <string name="share_text_1">Earn up to $50 daily</string>
+    <string name="share_text_2">Just download</string>
+    <string name="share_text_3">app from play store and register on the app</string>
+    <string name="share_text_4">Use my Refer Code -</string>
+    <string name="share_text_5">and get up to</string>
+    <string name="share_text_6">Click on below link download</string>
+    <string name="share_text_7">app from play store.</string>
+    <string name="enter_your">Enter your</string>
+    <string name="email_address">email address</string>
+    <string name="amount_of_coins">Amount of coins</string>
+    <string name="submit">Submit</string>
+    <string name="redeem_your_coins">Redeem Your Coins</string>
+    <string name="through">Through</string>
+    <string name="minimum_des">Note - Minimum coin required to withdraw is </string>
+    <string name="note">Note - </string>
+    <string name="withdrawal_value_1">is equal to</string>
+    <string name="if_you_are_experiencing_any_some_kind_of_error_in_the_app_or_you_haven_t_received_your_money_in_your_account_in_24_hours_then_you_can_contact_us_through_our_email_or_join_our_telegram_channel_or_through_our_whatsapp_number">If you are experiencing any some kind of error in the app or you haven\'t received your money in your account in 24 hours then you can contact us through our email.</string>
+    <string name="sign_up_from_here">Sign Up from here</string>
+    <string name="didn_t_you_have_an_account">Didn\'t you have an account?</string>
+    <string name="welcome_nback" translatable="false">Welcome\nBack!</string>
+    <string name="note_you_will_get_3_chances">Note - You will get 3 chances.</string>
+    <string name="spin">Spin</string>
+    <string name="scratch_the_card">Scratch The Card</string>
+    <string name="create_a_new_naccount" translatable="false">Create a new\naccount</string>
+    <string name="i_agree_with_the">I agree with the</string>
+    <string name="terms_and_conditions">Terms and Conditions</string>
+    <string name="register">Register</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="log_in_from_here">Log In from here</string>
+    <string name="change_language">Change Language</string>
+</resources>
